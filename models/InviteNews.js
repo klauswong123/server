@@ -9,6 +9,7 @@ const InviteNews = new Schema(
         invited_person: { type: String, required: true},
         invite_year:  { type: String, required: true},
         invite_month: { type: String, required: true},
+        accepted:{type: Boolean, default: false},
     },
     { timestamps: true },
 )

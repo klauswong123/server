@@ -36,6 +36,7 @@ const Client = new Schema(
         ranking:{ type: String, required: false },
         business_size:{ type: String, required: false },
         business_link: { type: String, required: false },
+        icon:{ data:Buffer, contentType:String }
     },
     { timestamps: true },
 )
